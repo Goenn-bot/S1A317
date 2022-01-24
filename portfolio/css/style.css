@@ -168,6 +168,7 @@ li {
   letter-spacing: .08em;
 }
 .main-visual-profile {
+  font-size: 50em;
   display: flex;
   flex-wrap: wrap;
   max-width: 800px;
@@ -485,7 +486,7 @@ li {
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
   body {
-    font-size: 13px;
+    font-size: 30px;
     line-height: 1.7;
   }
 
