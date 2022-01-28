@@ -182,11 +182,17 @@ li {
 .main-visual-img img {
   border-radius: 50%;
 }
+.main-visual-img:hover{
+  border:5px solid #63c34b;
+}
 .main-visual-text {
   flex: 1;
 }
 .main-visual-text p:not(:last-child) {
   margin-bottom: 30px;
+}
+.size{
+  font-size: 40px;
 }
 
 /*--------------------------------
@@ -567,6 +573,10 @@ li {
 
   .main-visual-text p:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .size{
+    font-size:30px;
   }
 
   /* Works */
