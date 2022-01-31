@@ -637,7 +637,8 @@ li {
 
 /* タイトル文字 */
 h2 {
-	color: rgb(88, 85, 85); /* 文字色 */
+  color: #63c34b; /* 文字色 */
+  margin-bottom: 15px;
 	padding: 10px 10px 10px 60px; /* 上・右・下・左の余白 */
 	position: relative;
 }

@@ -309,3 +309,18 @@ progress {
   padding: 0;
 }
 
+/* 文字の縁取り */
+.outline {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 1px #80ff80,
+              -2px 2px 1px #36c34b,
+              2px -2px 1px #36c34b,
+              -2px -2px 1px #36c34b,
+              2px 0px 1px #80ff80,
+              0px 2px 1px #36c34b,
+              -2px 0px 1px #36c34b,
+              0px -2px 1px #36c34b;
+}
